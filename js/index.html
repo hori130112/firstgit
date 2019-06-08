@@ -5,22 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    p{ white-space: pre-wrap;
+       font-family: monospace;
+    }
+        </style>
 </head>
 <body>
-<script>
-let char=""
- for( let i=1;i<10;i++){
-     for( let j=1;j<10;j++){
-if(i*j<10){
-    char=char+" "+" "+i*j
-}
-   else char=char+" "+i*j
-}
-     char=char+"\n"
-}
-
- console.log(char)
-</script>
+    <main>
+        <h1>九九表</h1>
+        <p id="kukuhyou"></p>
+    </main>
+<script type="text/javascript" src="./index.js"></script>
     
 </body>
 </html>
